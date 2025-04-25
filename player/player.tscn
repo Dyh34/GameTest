@@ -275,7 +275,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_j55il"]
-size = Vector2(25, 46)
+size = Vector2(25, 48)
 
 [node name="player" type="CharacterBody2D"]
 position = Vector2(8, -10)
@@ -287,5 +287,5 @@ sprite_frames = SubResource("SpriteFrames_xcnuv")
 animation = &"idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-2, -25)
+position = Vector2(-2, -26)
 shape = SubResource("RectangleShape2D_j55il")
